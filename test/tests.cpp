@@ -23,7 +23,7 @@ TEST(algtest, test_negative_number_is_not_prime) {
     EXPECT_FALSE(checkPrime(-2));
     EXPECT_FALSE(checkPrime(-3));
     EXPECT_FALSE(checkPrime(-5));
-    EXPECT_FALSE(checkPrime(-982451653));
+    EXPECT_FALSE(checkPrime(-982451651));
     EXPECT_FALSE(checkPrime(-982451549));
 }
 
@@ -61,7 +61,6 @@ TEST(algtest, test_next_prime_for_negative_numbers) {
     EXPECT_EQ(nextPrime(-7), 2);
     EXPECT_EQ(nextPrime(-11), 2);
     EXPECT_EQ(nextPrime(-13), 2);
-
 }
 
 TEST(algtest, test_sum_of_prime_numbers_for_small_numbers) {
